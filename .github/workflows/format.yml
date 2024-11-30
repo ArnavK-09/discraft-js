@@ -3,7 +3,7 @@ name: Build and format codebase
 on:
   workflow_dispatch:
   push:
-    branches: ["*"]
+    branches: ["main"]
 
 jobs:
   build:
